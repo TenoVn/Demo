@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textPercentSize">20sp</dimen>
+    <dimen name="buttonPlayWidth">300dp</dimen>
+    <dimen name="buttonPlayHeight">50dp</dimen>
+    <dimen name="logoMargin">40dp</dimen>
+    <dimen name="buttonDialogWidth">120dp</dimen>
+    <dimen name="buttonDialogHeight">30dp</dimen>
+    <dimen name="dialogAudienceSize">300dp</dimen>
+</resources>

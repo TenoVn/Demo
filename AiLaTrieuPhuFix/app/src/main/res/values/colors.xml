@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMilestones">#D50000</color>
+    <color name="colorColPercent">#76FF03</color>
+    <color name="colorTitleDialog">#AD1457</color>
+    <color name="colorConfirmDialogButton">#AA00FF</color>
+    <color name="colorMessageDialog">#000000</color>
+    <color name="colorTextDialog">#FFFFFF</color>
+    <color name="colorQuestion">#FFD600</color>
+    <color name="colorInvisible">#00FFFFFF</color>
+</resources>

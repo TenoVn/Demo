@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textPercentSize"
+        android:text="100%"
+        android:textColor="@color/colorTextDialog"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/tv_col_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorColPercent"
+        android:paddingBottom="100dp"
+        android:text="100%"
+        android:textColor="@color/colorInvisible"
+        android:textSize="@dimen/textPercentSize"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTextDialog"
+        android:textSize="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorTextDialog"
+        android:textStyle="bold"
+        android:textSize="@dimen/textPercentSize"/>
+</LinearLayout>

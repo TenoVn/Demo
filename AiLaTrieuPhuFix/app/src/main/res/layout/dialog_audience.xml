@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:background="@drawable/help_call_audience_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/askAudience"
+        android:background="@drawable/button_active"
+        android:gravity="center"
+        android:textColor="@color/colorTitleDialog"
+        android:textSize="@dimen/textPercentSize" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/help_call_audience_background">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/tv_percent_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textPercentSize"
+                android:text="100%"
+                android:textColor="@color/colorTextDialog"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_col_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorColPercent"
+                android:paddingBottom="100dp"
+                android:text="100%"
+                android:textColor="@color/colorInvisible"
+                android:textSize="@dimen/textPercentSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextDialog"
+                android:textSize="4dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="A"
+                android:textColor="@color/colorTextDialog"
+                android:textSize="@dimen/textPercentSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/tv_percent_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textPercentSize"
+                android:text="100%"
+                android:textColor="@color/colorTextDialog"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/tv_col_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorColPercent"
+                android:paddingBottom="100dp"
+                android:text="100%"
+                android:textColor="@color/colorInvisible"
+                android:textSize="@dimen/textPercentSize"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextDialog"
+                android:textSize="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorTextDialog"
+                android:textStyle="bold"
+                android:textSize="@dimen/textPercentSize"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/tv_percent_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textPercentSize"
+                android:text="100%"
+                android:textColor="@color/colorTextDialog"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/tv_col_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorColPercent"
+                android:paddingBottom="100dp"
+                android:text="100%"
+                android:textColor="@color/colorInvisible"
+                android:textSize="@dimen/textPercentSize"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextDialog"
+                android:textSize="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorTextDialog"
+                android:textStyle="bold"
+                android:textSize="@dimen/textPercentSize"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/tv_percent_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textPercentSize"
+                android:text="100%"
+                android:textColor="@color/colorTextDialog"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/tv_col_D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorColPercent"
+                android:paddingBottom="100dp"
+                android:text="100%"
+                android:textColor="@color/colorInvisible"
+                android:textSize="@dimen/textPercentSize"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextDialog"
+                android:textSize="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorTextDialog"
+                android:textStyle="bold"
+                android:textSize="@dimen/textPercentSize"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_template"
+        android:text="@string/closeAudienceDialog"
+        android:textColor="@color/colorTextDialog"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
