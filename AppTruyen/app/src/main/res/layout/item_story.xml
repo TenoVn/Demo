@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp">
+    <ImageView
+        android:id="@+id/iv_story"
+        android:layout_width="@dimen/sizeStory"
+        android:layout_height="@dimen/sizeStory"
+        android:src="@drawable/laugh"/>
+    <TextView
+        android:id="@+id/tv_story"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Item truyen 1"
+        android:textSize="20sp"
+        android:textColor="@color/colorTextViewTopic"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/selector_background_story"/>
+</LinearLayout>

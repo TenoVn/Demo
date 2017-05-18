@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_story"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textOn"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_title_story"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Tên truyện"
+        android:textColor="@color/toolBar"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_content_story"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nội dung truyện"
+            android:textColor="@color/textOff"
+            android:textSize="@dimen/text_content_size" />
+    </ScrollView>
+</LinearLayout>

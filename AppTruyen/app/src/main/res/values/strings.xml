@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Truyện cười</string>
+    <string name="home">Trang chủ</string>
+    <string name="size_up">Tăng cỡ chữ</string>
+    <string name="size_down">Giảm cỡ chữ</string>
+    <string name="favorite">Ưa thích</string>
+    <string name="share">Chia sẻ</string>
+    <string name="non_favorite">Chưa có danh sách ưa thích nào</string>
+    <string name="facebook_app_id">1578568422176422</string>
+</resources>
