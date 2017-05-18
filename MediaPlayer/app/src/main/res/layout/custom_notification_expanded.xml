@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/notificationbg"
+    android:layout_width="match_parent"
+    android:layout_height="128dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/notificationBackground">
+
+    <ImageView
+        android:id="@+id/iv_album_art"
+        android:layout_width="@dimen/notification_expanded_height"
+        android:layout_height="@dimen/notification_expanded_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_album_art"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="?android:listDivider"
+        android:layout_toRightOf="@id/iv_album_art"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:showDividers="middle"
+        android:dividerPadding="12dp">
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:background="?android:selectableItemBackground"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/play_controls_notification"
+            android:src="@drawable/apollo_holo_dark_prev"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:background="?android:selectableItemBackground"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/play_controls_notification"
+            android:src="@drawable/apollo_holo_dark_play"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+        <ImageButton android:id="@+id/btn_next"
+            android:background="?android:selectableItemBackground"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/play_controls_notification"
+            android:src="@drawable/apollo_holo_dark_next"
+            android:scaleType="fitCenter"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <ImageView
+        android:background="?android:dividerHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:layout_toRightOf="@id/iv_album_art"
+        android:layout_above="@+id/buttons"
+        android:layout_alignParentRight="true" />
+    <ImageButton
+        android:id="@+id/btn_collapse"
+        android:background="?android:selectableItemBackground"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/apollo_holo_dark_notifiation_bar_collapse"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/text_area"
+        android:paddingLeft="@dimen/notification_padding"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/iv_album_art">
+        <TextView
+            android:ellipsize="marquee"
+            android:layout_gravity="left"
+            android:id="@+id/tv_track_name"
+            android:focusable="true"
+            android:text="Name song"
+            android:textColor="@color/colorText"
+            android:fadingEdge="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+
+            />
+        <TextView
+            android:ellipsize="marquee"
+            android:layout_gravity="left"
+            android:id="@+id/tv_artist_name"
+            android:fadingEdge="horizontal"
+            android:text="Name artist"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            />
+        <TextView
+            android:ellipsize="marquee"
+            android:layout_gravity="left"
+            android:id="@+id/tv_album_name"
+            android:fadingEdge="horizontal"
+            android:text="Name album"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            />
+    </LinearLayout>
+</RelativeLayout>

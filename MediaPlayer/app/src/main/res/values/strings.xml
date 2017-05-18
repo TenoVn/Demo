@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+    <string name="musicOnline">Nhạc online</string>
+    <string name="all_album">Tất cả album</string>
+    <string name="all_artist">Tất cả ca sĩ</string>
+    <string name="musicOffline">Nhạc offline</string>
+</resources>
